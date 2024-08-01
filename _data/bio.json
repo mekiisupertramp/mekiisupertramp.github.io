@@ -1,13 +1,13 @@
 {
   "basics": {
-    "name": "Molly Maluhia",
-    "label": "Student",
-    "picture": "https://github.com/kambergjohnson.png",
-    "email": "molly@hawaii.edu",
-    "phone": "808-333-4444",
-    "website": "https://mmaluhia.github.io",
-    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2024.",
-    "location": { "address": "", "postalCode": "96822", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
+    "name": "Mehmed Blazevic",
+    "label": "Embedded System Engineer",
+    "picture": "https://github.com/mekiisupertramp.png",
+    "email": "mehmed.blazevic@gmail.com",
+    "phone": "(+41) 76.413.07.42",
+    "website": "https://mekiisupertramp.github.io",
+    "summary": "As an Embedded System Engineer, my journey has been fueled by a lifelong fascination with how things work and a passion for bringing innovative ideas to life.",
+    "location": { "address": "", "postalCode": "1196", "city": "Gland", "countryCode": "CH", "region": "Vaud" },
     "profiles": [
       { "network": "github", "username": "mmaluhia", "url": "http://github.com/changeme" },
       { "network": "linkedin", "username": "mollymaluhia", "url": "http://linkedin.com/in/changeme" },
