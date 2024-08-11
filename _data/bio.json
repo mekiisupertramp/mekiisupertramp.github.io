@@ -2,30 +2,27 @@
   "basics": {
     "name": "Mehmed Blazevic",
     "label": "Embedded System Engineer",
-    "picture": "mekiisupertramp.github.io/img/profile2.jpeg",
+    "picture": "https://github.com/mekiisupertramp.png",
     "email": "mehmed.blazevic@gmail.com",
     "phone": "(+41) 76.413.07.42",
     "website": "https://mekiisupertramp.github.io",
     "summary": "As an Embedded System Engineer, my journey has been fueled by a lifelong fascination with how things work and a passion for bringing innovative ideas to life.",
     "location": { "address": "", "postalCode": "1196", "city": "Gland", "countryCode": "CH", "region": "Vaud" },
     "profiles": [
-      { "network": "github", "username": "mmaluhia", "url": "http://github.com/changeme" },
-      { "network": "linkedin", "username": "mollymaluhia", "url": "http://linkedin.com/in/changeme" },
-      { "network": "twitter", "username": "mollymal", "url": "http://twitter.com/changeme" },
-      { "network": "instagram", "username": "molly", "url": "http://instagram.com/changeme" }
+      { "network": "github", "username": "mekiisupertramp", "url": "https://github.com/mekiisupertramp" },
+      { "network": "linkedin", "username": "Mehmed blazevic", "url": "https://www.linkedin.com/in/mehmed-blazevic/" }      
     ]
   },
   "interests": [
-    { "name": "Interactive media" },
-    { "name": "Neuromorphic Computing" },
-    { "name": "Quantum Computing" },
-    { "name": "Robotics" },
-    { "name": "3D Graphics" }
+    { "name": "Embedded systems" },
+    { "name": "Linux" },
+    { "name": "Programming" },
+    { "name": "Machine Learning" }
   ],
   "skills": [
     {
       "name": "Languages and Frameworks",
-      "keywords": [ "C", "C++", "Java", "Javascript", "Assembly", "Common Lisp" ]
+      "keywords": [ "C", "C++", "Java", "Python", "Bash", "Kotlin", "Assembly", "C#", "Qt", "openCV", "pandas", "scikit", "PyTorch", "Vue.js", "React" ]
     },
     {
       "name": "Toolsets/OS",
