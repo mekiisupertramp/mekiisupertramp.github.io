@@ -10,7 +10,8 @@
     "location": { "address": "", "postalCode": "1196", "city": "Gland", "countryCode": "CH", "region": "Vaud" },
     "profiles": [
       { "network": "github", "username": "mekiisupertramp", "url": "https://github.com/mekiisupertramp" },
-      { "network": "linkedin", "username": "Mehmed blazevic", "url": "https://www.linkedin.com/in/mehmed-blazevic/" }      
+      { "network": "linkedin", "username": "Mehmed blazevic", "url": "https://www.linkedin.com/in/mehmed-blazevic/" },
+      { "network": "file-earmark-pdf-fill", "username": "Mehmed Blazevic", "url": "resources/cv_Blazevic.pdf" }            
     ]
   },
   "interests": [
