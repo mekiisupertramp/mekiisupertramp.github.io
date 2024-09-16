@@ -14,7 +14,7 @@ layout: home
 
     <div class="row">
       <div class="col">
-        {% capture url %}{{ site.data.bio.basics.website }}{% endcapture %}
+        {% capture url %}{ site.data.bio.basics.website }}{% endcapture %}
         {% capture label %}{{ site.data.bio.basics.website | remove: "http://" | remove: "https://" }}{% endcapture %}
         <p class="mb-1">{% include about/social.html url=url name='house' label=label %} </p>
 
@@ -50,6 +50,7 @@ layout: home
         </p>
       </div>
     </div>
+    <hr>
 
     {% if site.data.bio.skills %}
     <div class="row pt-4 align-items-center">
@@ -59,15 +60,23 @@ layout: home
       <div class="col-lg-9">
         {% for entry in site.data.bio.skills %}
           <p class="m-0">
-            <b>{{ entry.name }}:</b>
+            <b>{{ entry.name }}:</b>            
               {% for keyword in entry.keywords %}
-                {{ keyword }}{% if forloop.last != true %}, {% endif %}
-              {% endfor %}
-          </p>
-        {% endfor %}
+                {% if entry.name != "Languages"%}
+                  {{ keyword }}{% if forloop.last != true %}, {% endif %}                  
+                {% else %}
+                {{ keyword }}{% if forloop.last != true %} {% endif %}
+                {% endif %}
+              {% endfor %}                               
+          </p>                
+          {% if entry.name != "Languages"%}    
+            <p></p> 
+          {% endif %}
+        {% endfor %}        
       </div>
     </div>
     {% endif %}
+    <hr>
 
     {% if site.data.bio.education %}
     <div class="row pt-4 align-items-start">
@@ -106,8 +115,9 @@ layout: home
             </p>
           </div>
         </div>
-        {% endfor %}
+        {% endfor %}        
       </div>
+      <hr>
     </div>
     {% endif %}
 
@@ -122,6 +132,7 @@ layout: home
             <div class="col-9">
               <p class="mb-0"><b>{{ entry.position }}, {{ entry.company }}</b></p>
               <p class="mb-0"><a href="{{ entry.website }}">{{ entry.website | remove: "http://" | remove: "https://" }}</a></p>
+              <p class="mb-0"><a href="{{ entry.url }}">{{ entry.url | remove: "http://" | remove: "https://" }}</a></p>
               <p class="mb-0">{{ entry.summary }}</p>
               {% if entry.highlights %}
                 <ul>
@@ -153,6 +164,7 @@ layout: home
       </div>
     </div>
     {% endif %}
+    <hr>
 
     {% if site.data.bio.volunteer %}
       <div class="row pt-4 align-items-start">
