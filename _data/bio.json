@@ -10,102 +10,148 @@
     "location": { "address": "", "postalCode": "1196", "city": "Gland", "countryCode": "CH", "region": "Vaud" },
     "profiles": [
       { "network": "github", "username": "mekiisupertramp", "url": "https://github.com/mekiisupertramp" },
-      { "network": "linkedin", "username": "Mehmed blazevic", "url": "https://www.linkedin.com/in/mehmed-blazevic/" },
-      { "network": "file-earmark-pdf-fill", "username": "Mehmed Blazevic", "url": "resources/cv_Blazevic.pdf" }            
+      { "network": "linkedin", "username": "mehmed-blazevic", "url": "https://www.linkedin.com/in/mehmed-blazevic/" },
+      { "network": "file-earmark-pdf-fill", "username": "cv_Blazevic.pdf", "url": "resources/cv_Blazevic.pdf" }      
     ]
   },
   "interests": [
-    { "name": "Embedded systems" },
+    { "name": "Electronics"},
+    { "name": "DIY"},
+    { "name": "Repairing"},
     { "name": "Linux" },
-    { "name": "Programming" },
-    { "name": "Machine Learning" }
+    { "name": "IoT" },
+    { "name": "Space" },
+    { "name": "Technology" },
+    { "name": "Cycling" },
+    { "name": "Motorbikes" },
+    { "name": "Guitar" },
+    { "name": "Videogames" },
+    { "name": "Retrogaming" },
+    { "name": "Longboarding" },
+    { "name": "Pizzas" },
+    { "name": "Beers"}
   ],
   "skills": [
     {
-      "name": "Languages and Frameworks",
-      "keywords": [ "C", "C++", "Java", "Python", "Bash", "Kotlin", "Assembly", "C#", "Qt", "openCV", "pandas", "scikit", "PyTorch", "Vue.js", "React" ]
+      "name": "Embedded software",
+      "keywords": ["FreeRTOS", "TI-RTOS", "Bare-metal", "Embedded Linux", "Kernel programming", "Devices drivers", 
+      "Buildroot", "Busybox", "Yocto", "U-Boot", "Debugging", "Profiling", "C++", "C", "Assembly", 
+      "VHDL", "SystemVerilog", "Testbench", "Arduino", "mBed"]
+    },
+    {
+      "name": "Embedded hardware",
+      "keywords": [ "ARM", "Cortex-M", "NXP", "STM32", "Nordic", "Texas Instruments", "ESP32", "Altera", "Xilinx", "Circuit design", 
+      "Schematic drawing", "Analog/digital electronics", "Altium", "KiCad", "Communication protocols (SPI, I2C, CAN, USB, Serial)", 
+      "Bluetooth", "RF", "EMC", "Electronics assembly"]
+    },
+    {
+      "name": "Software",
+      "keywords": ["Java", "Python", "Bash", "C#", "Qt", "Machine learning", "Computer vision", "openCV", 
+      "Pandas", "scikit", "PyTorch", "Numpy", "Homebridge", "Kotlin", "Android"]
     },
     {
       "name": "Toolsets/OS",
-      "keywords": [ "MacOS", "Ubuntu", "Git/GitHub", "g++", "TI LaunchPad" ]
+      "keywords": [ "Linux", "MacOS", "Windows", "Git", "GCC", "Code Composer Studio", "Vivado", "Quartus", "VS Code", 
+      "Latex", "Notion", "Trello" ]
+    },
+    {
+      "name": "Languages",
+      "keywords": ["<ul><ul><li>French: mother tongue</li></ul></ul>", "<ul><ul><li>English: B2</li></ul></ul>", "<ul><ul><li>Bosnian: mother tongue</li></ul></ul>"]
     }
   ],
   "education": [
     {
-      "institution": "University of Hawaii, Honolulu, HI",
-      "area": "Computer Science (expected Spring, 2018)",
+      "institution": "Master of Science, HES-SO, Lausanne",
+      "area": "Information and Communication Technologies in Embedded and Mobile Systems",
+      "studyType": "M.S.",
+      "startDate": "2018",
+      "endDate": "2021"
+    },
+    {
+      "institution": "Bachelor, HEPIA, Geneva",
+      "area": "Information Technology Engineering with focus in hardware computing",
       "studyType": "B.S.",
-      "startDate": "2013-09-01",
-      "endDate": "Present",
-      "courses": [
-      ]
+      "startDate": "2015",
+      "endDate": "2018"
+    },
+    {
+      "institution": "Technician ES, CFPT, Geneva",
+      "area": "Techician ES in electronic science",
+      "studyType": "CFC+2",
+      "startDate": "2013",
+      "endDate": "2015"
+    },
+    {
+      "institution": "Diploma of Vocational Education and Training, CFPT, Geneva",
+      "area": "Apprenticeship in electronic science",
+      "studyType": "CFC",
+      "startDate": "2009",
+      "endDate": "2013"
     }
   ],
   "work": [
     {
-      "company": "UH Manoa Board of Publications",
-      "position": "Web Developer",
-      "website": "",
-      "startDate": "2015-08-01",
+      "company": "Shematic SA",
+      "position": "Embedded System Engineer",
+      "website": "https://www.shematic.ch",
+      "startDate": "2021",
       "endDate": "Present",
-      "summary": "Head of online presence for Ka Leo",
+      "summary": "Designing, assembling and programming embedded systems to ensure the control and optimal operation of electric vehicles.",
       "highlights": [
-        "Maintain, update, and oversee official college newspaper website",
-        "Drive, design and build student-community projects for UH Manoa"
+        "Designed the control PCB which ensures the control and optimal operation of LEVs",
+        "Designed the power PCB which provides power rails and interfaces for the whole system",
+        "Those two modules are used in several projects such as <a href=\"https://motosacoche.swiss/\">Motosacoche</a>, <a href=\"https://www.yakbike.co/fr\">Yakbike</a> or <a href=\"https://www.pelicancycles.com/pelicantrain\">Pelican-train</a>",        
+        "Developed the firmwares of both modules and a custom bootloader which enables the control module to be updated through BLE",
+        "Delevoped a QT App enabling the full control and updates of the vehicules",
+        "Developed and maintained documentation",
+        "Effectively managed projects through close collaboration with stakeholders"
       ]
     },
     {
-      "company": "UH Information Technology Services",
-      "position": "Help Desk Consultant",
-      "website": "http://www.hawaii.edu/its/",
-      "startDate": "2015-01-01",
-      "endDate": "2016-03-15",
-      "summary": "",
+      "company": "HEPIA",
+      "position": "Teaching assistant",
+      "website": "https://www.hesge.ch/hepia/",
+      "startDate": "2018",
+      "endDate": "2021",
+      "summary": "Worked on several projects and assisted several courses for B.S. students",
       "highlights": [
-        "Troubleshoot software, hardware and networking issues over the phone",
-        "Answer phone and email responses to the ITS Help Desk"
-      ]
-    }
-  ],
-  "volunteer": [
-    {
-      "organization": "Center for Renewable Energy and Island Sustainability",
-      "website": "http://manoa.hawaii.edu/reis",
-      "position": "Software Developer",
-      "startDate": "2016-01-01",
-      "endDate": "Present",
-      "summary": "Lead developer for weather sensing project",
-      "highlights": [
-        "Design firmware for distributed weather sensor network",
-        "Maintain custom data collection and storage infrastructure"
+        "Updated <a href=\"https://hepialsn.hesge.ch/mylab2/\">myLab2</a> platform, ran tests, wrote drivers and example firmwares (bare-metal and FreeRTOS)",
+        "Updated <a href=\"https://www.codezlascience.ch/hepialight-43319554.html\">hepiaLight</a> platform, ran tests, imported MicroPython and wrote modules",
+        "Developed kernel drivers (GPIOs, SPI, LCD) and user-space programs for the embedded Linux course",
+        "Made a state of art and ran tests on DRM (interfaces Linux kernel with GPUs)",
+        "Designed and manufactured <a href=\"https://www.linkedin.com/pulse/scalp-self-configurable-3-d-cellular-multi-fpga-adaptive-upegui/\">SCALP</a> high-end FPGA-based PCB and ran tests",
+        "I had the opportunity to be trained and to work with industrial machines like automatic pick'n'place, infrared oven, steam phase oven, infrared canon and solder paste printer",
+        "Assisting the logical systems, computer vision/signal processing, system programming and embedded Linux courses"
       ]
     },
     {
-      "organization": "",
-      "website": "",
-      "position": "Professional organization involvement",
-      "startDate": "",
-      "endDate": "",
-      "summary": "",
+      "company": "CHIC",
+      "position": "Student Embedded System Engineer",
+      "website": "https://chi.camp/projects/team-ge/",
+      "startDate": "2017",
+      "endDate": "2018",
+      "summary": "China Hardware Innovation Camp challenges students to go from a blank sheet of paper to the functional prototype of a connected device",
       "highlights": [
-        "Chair, ACM Manoa, 2016-Present",
-        "Member, IEEE Student Branch, 2014-Present",
-        "Webmaster/IT Officer, IEEE Student Branch, UH Manoa, 2012-2013"
+        "Team GUIDO developed an innovative solution to make learning music fun & developing children skills",
+        "At the end of school year, we traveled to Shenzhen to make the product in Chinese industries & meet Chinese lead companies",
+        "Had the opportunity to visit Huaqiangbei's electronic market (world greatest)",
+        "Also traveled to Hong-Kong to speech about our product to lead Hong-Kong startups & Hong-Kong University of Science and Technology (HKUST) ",
+        "Win the 2st place of <a href=\"https://www.hesge.ch/heg/actualites/2018/projet-guido-music-learning-made-fun-remporte-deuxieme-place-du-concours-genilem-hes\">GENILEM</a>'s contest"
       ]
-    }
-  ],
-  "awards": [
-    {
-      "title": "B+ Scholarship",
-      "date": "2013-Present",
-      "awarder": "State of Hawaii",
-      "summary": "Scholarships awarded to incoming freshmen and continuing students who complete a rigorous high school curriculum with a minimum overall GPA of 3.0 at a Hawai'i public school."
     },
     {
-      "title": "First place",
-      "date": "2015",
-      "awarder": "University of Hawaii Micromouse Competition",
-      "summary": "My team won first place in 2015.  See my portfolio site for more details."
+      "company": "Maclinic",
+      "position": "Electronic repair specialist",
+      "website": "https://www.maclinic.ch/",
+      "startDate": "2018",
+      "endDate": "2020",
+      "summary": "Maclinic repairs all kind of Apple devices and I was responsible of repairing all kind of electronical issues",
+      "highlights": [
+        "Motherboard fixing",
+        "Components check and replace",
+        "Re-route unconnected or corroded traces",
+        "Investigating on the issue's origin"
+      ]
     }
   ],
   "references": [
