@@ -47,12 +47,16 @@
     {
       "name": "Software",
       "keywords": ["Java", "Python", "Bash", "C#", "Qt", "Machine learning", "Computer vision", "openCV", 
-      "Pandas", "scikit", "PyTorch", "Numpy", "Homebridge", "Android"]
+      "Pandas", "scikit", "PyTorch", "Numpy", "Homebridge", "Kotlin", "Android"]
     },
     {
       "name": "Toolsets/OS",
       "keywords": [ "Linux", "MacOS", "Windows", "Git", "GCC", "Code Composer Studio", "Vivado", "Quartus", "VS Code", 
       "Latex", "Notion", "Trello" ]
+    },
+    {
+      "name": "Languages",
+      "keywords": ["<ul><ul><li>French: mother tongue</li></ul></ul>", "<ul><ul><li>English: B2</li></ul></ul>", "<ul><ul><li>Bosnian: mother tongue</li></ul></ul>"]
     }
   ],
   "education": [
@@ -96,9 +100,9 @@
       "highlights": [
         "Designed the control PCB which ensures the control and optimal operation of LEVs",
         "Designed the power PCB which provides power rails and interfaces for the whole system",
-        "Those systems are used in several projects such as www.motosacoche.swiss or www.yakbike.ch",
-        "Delevoped a QT App enabling the full control and updates for the control PCB via BLE",
-        "Developed the firmwares and bootloaders for both systems",
+        "Those two modules are used in several projects such as <a href=\"https://motosacoche.swiss/\">Motosacoche</a>, <a href=\"https://www.yakbike.co/fr\">Yakbike</a> or <a href=\"https://www.pelicancycles.com/pelicantrain\">Pelican-train</a>",        
+        "Developed the firmwares of both modules and a custom bootloader which enables the control module to be updated through BLE",
+        "Delevoped a QT App enabling the full control and updates of the vehicules",
         "Developed and maintained documentation",
         "Effectively managed projects through close collaboration with stakeholders"
       ]
@@ -111,12 +115,42 @@
       "endDate": "2021",
       "summary": "Worked on several projects and assisted several courses for B.S. students",
       "highlights": [
-        "Updated myLab2 platform",
-        "Updated hepiaLight2 platform",
-        "Developed several drivers for the embedded Linux course",
+        "Updated <a href=\"https://hepialsn.hesge.ch/mylab2/\">myLab2</a> platform, ran tests, wrote drivers and example firmwares (bare-metal and FreeRTOS)",
+        "Updated <a href=\"https://www.codezlascience.ch/hepialight-43319554.html\">hepiaLight</a> platform, ran tests, imported MicroPython and wrote modules",
+        "Developed kernel drivers (GPIOs, SPI, LCD) and user-space programs for the embedded Linux course",
         "Made a state of art and ran tests on DRM (interfaces Linux kernel with GPUs)",
-        "Designed and manufactured SCALP high-end FPGA-based PCB and ran tests",
+        "Designed and manufactured <a href=\"https://www.linkedin.com/pulse/scalp-self-configurable-3-d-cellular-multi-fpga-adaptive-upegui/\">SCALP</a> high-end FPGA-based PCB and ran tests",
+        "I had the opportunity to be trained and to work with industrial machines like automatic pick'n'place, infrared oven, steam phase oven, infrared canon and solder paste printer",
         "Assisting the logical systems, computer vision/signal processing, system programming and embedded Linux courses"
+      ]
+    },
+    {
+      "company": "CHIC",
+      "position": "Student Embedded System Engineer",
+      "website": "https://chi.camp/projects/team-ge/",
+      "startDate": "2017",
+      "endDate": "2018",
+      "summary": "China Hardware Innovation Camp challenges students to go from a blank sheet of paper to the functional prototype of a connected device",
+      "highlights": [
+        "Team GUIDO developed an innovative solution to make learning music fun & developing children skills",
+        "At the end of school year, we traveled to Shenzhen to make the product in Chinese industries & meet Chinese lead companies",
+        "Had the opportunity to visit Huaqiangbei's electronic market (world greatest)",
+        "Also traveled to Hong-Kong to speech about our product to lead Hong-Kong startups & Hong-Kong University of Science and Technology (HKUST) ",
+        "Win the 2st place of <a href=\"https://www.hesge.ch/heg/actualites/2018/projet-guido-music-learning-made-fun-remporte-deuxieme-place-du-concours-genilem-hes\">GENILEM</a>'s contest"
+      ]
+    },
+    {
+      "company": "Maclinic",
+      "position": "Electronic repair specialist",
+      "website": "https://www.maclinic.ch/",
+      "startDate": "2018",
+      "endDate": "2020",
+      "summary": "Maclinic repairs all kind of Apple devices and I was responsible of repairing all kind of electronical issues",
+      "highlights": [
+        "Motherboard fixing",
+        "Components check and replace",
+        "Re-route unconnected or corroded traces",
+        "Investigating on the issue's origin"
       ]
     }
   ],
