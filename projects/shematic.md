@@ -35,7 +35,7 @@ The blue PCB has two main roles. The first is to provide all the power rails nee
     * Power rails
 
 <p align="center">
-<img class="img-fluid" src="../img/shematic/BB.png" style="width:250px;"> 
+<img class="img-fluid" src="../img/shematic/BB1.png" style="width:250px;"> 
 </p>
 
 The firmware is bare-metal without any RTOS. Basically, it reads inputs, and send it to system's brain. The brain will take decisisions and send it back. 
@@ -52,7 +52,7 @@ The control PCB is used as the brain of vehicles. It has several features:
 * Several communication protocol feature: CAN, SPI, UART, I2C
 
 <p align="center">
-<img class="img-fluid" src="../img/shematic/LB.png" style="width:70px;"> 
+<img class="img-fluid" src="../img/shematic/LB1.png" style="width:70px;"> 
 </p> 
 
 A specific firmware ensure that every component works well. A tailor-made bootloader allows the board's updates through Bluetooth. The firmware is based on TI-RTOS and several tasks manage the project's key features:
