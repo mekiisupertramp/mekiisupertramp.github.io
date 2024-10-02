@@ -20,7 +20,7 @@ Below is the base system containing every main parts that are generally used in 
 <img class="img-fluid" src="../img/shematic/system.png">    
 
 # Power & interfaces
-The blue PCB has two main roles. The first is to provide all the power rails needed by the system and the second is to provide all necessary interfaces to connect with a large range of devices. This PCB has the folowing features:
+The blue PCB has two main roles. The first is to provide all the power rails needed by the system and the second is to provide all necessary interfaces to connect with a large range of devices. This PCB has the following features:
 
 * STM32 MCU
 * Power rails
