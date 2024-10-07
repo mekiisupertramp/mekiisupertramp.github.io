@@ -97,4 +97,4 @@ The Bachelor’s project faced several challenges, including delays from an erro
 <img class="img-fluid" src="../img/guido/guido-pcb2.jpg" style="width:400px;">
 </p>
 
-<p align="center">PCB assembly by hand without some components</p>
+<p align="center">PCB assembly by hands</p>
