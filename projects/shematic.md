@@ -4,7 +4,7 @@ type: project
 image: img/shematic/bicycle.jpg
 title: "LEVs embedded system"
 date: 2021 - 2024
-published: true
+published: false
 labels:
   - C/C++
   - Bluetooth Low Energy
