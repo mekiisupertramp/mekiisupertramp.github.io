@@ -2,6 +2,7 @@
 layout: essay
 type: essay
 title: "The difficult things will always be difficult"
+image: img/shematic/system.png
 # All dates must be YYYY-MM-DD format!
 date: 2016-02-06
 published: true

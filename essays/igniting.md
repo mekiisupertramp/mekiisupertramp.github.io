@@ -2,6 +2,7 @@
 layout: essay
 type: essay
 title: "Igniting the fire"
+image: img/guido/guido-team.jpeg
 # All dates must be YYYY-MM-DD format!
 date: 2015-08-26
 published: true

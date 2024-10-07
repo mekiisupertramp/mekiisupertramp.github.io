@@ -2,6 +2,7 @@
 layout: essay
 type: essay
 title: "Smart Questions, Good Answers"
+image: img/shematic/pelicantrain.png
 # All dates must be YYYY-MM-DD format!
 date: 2015-09-08
 published: true
