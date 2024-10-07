@@ -1,14 +1,16 @@
 ---
 layout: essay
 type: essay
-title: "Igniting the fire"
+title: "Mandelbrot do drugs?!"
 image: img/guido/guido-team.jpeg
 # All dates must be YYYY-MM-DD format!
 date: 2015-08-26
 published: true
 labels:
-  - Software Engineering
-  - Learning
+  - FPGA
+  - VHDL
+  - Mandelbrot
+  - Optimization
 ---
 
 <img width="100px" class="rounded float-start pe-4" src="../img/igniting/paintbrushes.jpg">

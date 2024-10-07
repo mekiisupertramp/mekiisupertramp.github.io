@@ -1,15 +1,16 @@
 ---
 layout: essay
 type: essay
-title: "Smart Questions, Good Answers"
+title: "Homebridge, connect your Home!"
 image: img/shematic/pelicantrain.png
 # All dates must be YYYY-MM-DD format!
 date: 2015-09-08
 published: true
 labels:
-  - Questions
-  - Answers
-  - StackOverflow
+  - Home
+  - Homebridge
+  - HomeKit
+  - Apple
 ---
 
 <img width="300px" class="rounded float-start pe-4" src="../img/smart-questions/rtfm.png">
