@@ -45,6 +45,4 @@ Here is the checker threads logic:
 
 This project successfully demonstrates the implementation of multithreading in a game development context. The primary challenge was ensuring that the threads could run in parallel without causing any issues with the game logic. If more time were available, additional features such as combo moves (e.g., aligning both rows and columns simultaneously) could be implemented, enhancing the gameplay experience. Porting the game to Android would also be a logical next step, given the platform's popularity for mobile gaming.
 
-JavaCrush exemplifies how multithreading can be applied to game development in a way that enhances performance. The project showcases key concepts such as synchronization, thread management, and object-oriented design.
-
 For more information, here is the source code: [https://github.com/mekiisupertramp/javacrush](https://github.com/mekiisupertramp/javacrush)
