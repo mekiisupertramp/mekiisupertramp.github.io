@@ -21,7 +21,7 @@ At the heart of JavaCrush lies a straightforward but engaging game mechanic. The
 <img class="img-fluid" src="../img/candycrush/javacrush.png" style="width:500px;"> 
 </p>
 
-# Threads
+# Threads
 What distinguishes this project from a typical CandyCrush clone is its multithreaded architecture. JavaCrush utilizes three threads, each responsible for a specific task:
 
 * Vertical Checker Thread: Scans the grid vertically, removing animals aligned in columns.
