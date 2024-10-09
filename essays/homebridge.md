@@ -1,8 +1,8 @@
 ---
 layout: essay
 type: essay
-title: "Homebridge, connect your Home!"
-image: img/shematic/pelicantrain.png
+title: "Homebridge, connect your Home! [under construction]"
+image: img/loading.gif
 # All dates must be YYYY-MM-DD format!
 date: 2015-09-08
 published: true
