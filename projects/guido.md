@@ -9,6 +9,7 @@ labels:
   - Music
   - PCB design
   - Nordic nRF52840
+  - Entrepreneurship
 summary: "Providing educational & technological solutions to help children learn music while having fun!"
 ---
 

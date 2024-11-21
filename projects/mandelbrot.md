@@ -10,9 +10,7 @@ labels:
   - VHDL
   - Mandelbrot
   - Optimization
-  - uBlaze
   - Vivado
-  - Artix-7
 summary: "FPGA capable of computing Mandelbrot set faster than my grandma."
 ---
 
