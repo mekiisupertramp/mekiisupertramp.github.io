@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/shematic/bicycle.jpg
+image: img/shematic/bicycle.png
 title: "LEVs embedded system"
 date: 2021 - 2024
 published: true
