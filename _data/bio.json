@@ -42,7 +42,7 @@
       "name": "Embedded hardware",
       "keywords": [ "ARM", "Cortex-M", "NXP", "STM32", "Nordic", "Texas Instruments", "ESP32", "Altera", "Xilinx", "Circuit design", 
       "Schematic drawing", "Analog/digital electronics", "Altium", "KiCad", "Communication protocols (SPI, I2C, CAN, USB, Serial)", 
-      "Bluetooth", "RF", "EMC", "Electronics assembly"]
+      "Bluetooth", "RF", "EMC", "Electronics assembly", "Troubleshooting", "Failure analysis", "Tooling", "Soldering", "Repairing", "Wiring"]
     },
     {
       "name": "Software",
