@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-title: "Custom CPU for robot control [...in progress...]"
+title: "Custom CPU for robot control [in progress...]"
 image: img/processor/pro_logo.png
 date: 2016
 published: true

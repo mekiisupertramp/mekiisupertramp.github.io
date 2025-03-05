@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: "WallFrame 1/6 - RGB [..in progress..]"
+title: "WallFrame 1/6 - RGB [in progress..]"
 image: img/wf_rgb/wf_logo.png
 # All dates must be YYYY-MM-DD format!
 date: 2024-12-20
