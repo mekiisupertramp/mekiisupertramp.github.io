@@ -1,15 +1,15 @@
 ---
 layout: essay
 type: essay
-title: "WallFrame 1/6 - RGB [in progress..]"
+title: "WallFrame 1/6 - RGB"
 image: img/wf_rgb/wf_logo.png
 # All dates must be YYYY-MM-DD format!
-date: 2024-12-20
+date: 2025-01-8
 published: true
 labels:
   - Raspberry Pi  Pico WH
   - Python
-  - WS2812B
+  - RGB LED WS2812B
 ---
 
 # Introduction
@@ -26,6 +26,9 @@ This guide will walk you through the process of setting up Visual Studio Code (V
 - Visual Studio Code (VS Code) installed on your computer
 - MicroPico module
 - MicroPython firmware for Raspberry Pi Pico W
+- WS2812B RGB stripes
+
+All electronics will be explained in a futur post. 
 
 # Step-by-Step installing environment and testing
 Short walks through MicroPython environment from installation to testing the onboard LED. 
@@ -154,23 +157,56 @@ main()
 <p align="center">LED</p>
 
 # RGB
+Here is an example on how to drive the RGB stripes.
 ## Initialisation
 ```python
-import neopixel
-import machine
-import time
-
+# Setting the GP0 pin (#1 on the RP2040's connector)
 pin = machine.Pin(0)
+# Setting the number of stripes
 ledQty = 2
-strip = neopixel.NeoPixel(pin,ledQty)
+# Create a strip object
+strip = neopixel.NeoPixel(pin,ledQty) 
 ```
 
+## Set colors & write to strip
+```python
+# set color BRG (24=3*8 bits)
+b = 30
+r = 30
+g = 0
+strip[0] = (b, r, g) # type: ignore | purple
+b = 0
+r = 30
+g = 30
+strip[1] = (b, r, g) # type: ignore | yellow
+strip.write()s
+```
 <p align="center">
 <img class="img-fluid" src="../img/wf_rgb/wf_rgb.png" style="width:400px;"> 
 </p>
 
 <p align="center">RGB first colours</p>
 
-## Code Walkthrough
+## Do something random
+```python
+# Do something completly random (what? it's my code!)
+while True:
+    time.sleep_ms(20)
+    b = b+10
+    g = g+5
+    if b > 80:
+        g = g+10
+    strip[0] = (g,30,15) # type: ignore
+    strip[1] = (0, b, g) # type: ignore
+    strip.write()
+```
+
+<p align="center">
+<img class="img-fluid" src="../img/wf_rgb/wf_rgb2.gif" style="width:400px;"> 
+</p>
+
+<p align="center">RGB random</p>
+
 
 # Next
+At this stage, all components have not been selected. Details regarding the electronics will be outlined in a separate post. The next one will focus on how to run an HTTP server on the Pico, and drive the LED via the server.
