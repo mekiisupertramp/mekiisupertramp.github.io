@@ -1,10 +1,10 @@
 ---
 layout: essay
 type: essay
-title: "WallFrame 1/6 - RGB"
+title: "WallFrame 1/5 - RGB"
 image: img/wf_rgb/wf_logo.png
 # All dates must be YYYY-MM-DD format!
-date: 2025-01-8
+date: 2025-01-10
 published: true
 labels:
   - Raspberry Pi  Pico WH
