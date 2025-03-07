@@ -150,6 +150,8 @@ main()
 
 ```
 
+You can find it [here](https://github.com/mekiisupertramp/wallframe/blob/main/led_timer.py)
+
 <p align="center">
 <img class="img-fluid" src="../img/wf_rgb/wf_led_blink.png" style="width:300px;"> 
 </p>
@@ -209,4 +211,4 @@ while True:
 
 
 # Next
-At this stage, all components have not been selected. Details regarding the electronics will be outlined in a separate post. The next one will focus on how to run an HTTP server on the Pico, and drive the LED via the server.
+At this stage, all components have not been selected. Details regarding the electronics will be outlined in a separate post. The next one will focus on how to run an HTTP server on the Pico, and drive the LED via the server. For more information, please see: [https://github.com/mekiisupertramp/wallframe/blob/main/rgb.py](https://github.com/mekiisupertramp/wallframe/blob/main/rgb.py)

@@ -224,4 +224,4 @@ To finish, manage the different URLS:
 
 
 # Next
-At this stage, the RGB strips can be controlled directly via a web browser, providing a core setup for further development. This serves as the groundwork for integrating the system into more advanced environments, such as Home Assistant. The next post will delve into Homebridge integration in greater details. 
+At this stage, the RGB strips can be controlled directly via a web browser, providing a core setup for further development. This serves as the groundwork for integrating the system into more advanced environments, such as Home Assistant. The next post will delve into Homebridge integration in greater details. For more information, please see: [https://github.com/mekiisupertramp/wallframe/blob/main/http_example.py](https://github.com/mekiisupertramp/wallframe/blob/main/http_example.py)
