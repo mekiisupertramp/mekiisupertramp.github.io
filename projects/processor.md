@@ -160,13 +160,29 @@ This interface was originally designed for a previous logic systems lab and was 
 <p align="center">7-seg interface</p>
 
 
-## Wifi (UART)
+## UART (with Wifi)
+First, as illustrated in the first schematic in the *Introduction* chapter, a WiFi module (WiFly-RN-134) is used to link the command and the robot systems, offering a more convenient alternative to wired connections. This project does not configure the module but only utilizes its bridging capabilities. The configuration was carried out on a PC, and no further details are provided here, as it falls outside the scope of this project. All works like a standard UART-to-UART connection. 
 
-This UART interface is more complex than others due to the intrinsic constraints of UART communication. It includes six inputs: clock and reset signals, write enable, a 4-bit address for internal registers, an 8-bit data input for transmission, and a 1-bit reception input. It provides two outputs: an 8-bit data output for received data and a 1-bit transmission output. The interface is divided into two sections: transmission and reception. Both transmission and reception operate at 9600 baud, using 8 bits, no parity, one start bit, and one stop bit. A shift register is used to handle the 8-bit data to be transmitted. Transmission is initialized by performing an initial write operation. Once a complete frame has been transmitted, new data can then be sent. Until the transmission is complete, a signal prevents the processor from writing additional data. A similar mechanism is implemented for reception. During reception, a counter manages the calculation of the 1.5 start bits. To determine which motor the data is intended for, an identification frame is transmitted first (see Instructions).
+So, the UART interface includes six inputs: clock and reset signals, write enable, a 4-bit address for internal registers, an 8-bit data input for transmission, and a 1-bit reception input. It provides two outputs: an 8-bit data output for received data and a 1-bit transmission output. The interface is divided into two sections: transmission and reception. Both transmission and reception operate at 9600 baud, using 8 bits, no parity, one start bit, and one stop bit. A shift register is used to handle the 8-bit data to be transmitted. Transmission is initialized by performing an initial write operation. Once a complete frame has been transmitted, new data can then be sent. Until the transmission is complete, a signal prevents the processor from writing additional data. A similar mechanism is implemented for reception. During reception, a counter manages the calculation of the 1.5 start bits. To determine which motor the data is intended for, an identification frame is transmitted first (see Instructions).
 
-UART BUT WIFI BUT UART ....... EXPLAIN IT!
+<p align="center">
+<img class="img-fluid" src="../img/processor/pro_uart.png" style="width:2000px;"> 
+</p>
+
+<p align="center">UART</p>
 
 # Instructions
+
+Now the code .... ofcourse tests were made althrough the project to assess each feature. Here is an example of what can be made .... 
 ## Commands
 ## Robot
+
 # Conclusion
+
+This project was particularly exciting, as it provided the opportunity to apply the theory and best practices learned during logical systems and electronics courses and labs. It offered a deeper understanding of how an embedded system works and how digital systems interact with analog components. Logic issues were resolved using tools such as the USBee RX and the Logisim timing diagram. The limitations of the components used were also understood. The outcome of the project was satisfying, even though the initial design included an additional feature to calculate the robot's actual speed. Overall, the experience of working on this project was highly positive. 
+
+<p align="center">
+<img class="img-fluid" src="../img/processor/pro_robot.png" style="width:700px;"> 
+</p>
+
+<p align="center">Robot demonstration</p>
