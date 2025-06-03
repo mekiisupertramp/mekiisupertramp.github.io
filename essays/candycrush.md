@@ -4,7 +4,7 @@ type: essay
 title: "Multithreaded CandyCrush-like game"
 image: img/candycrush/javacrush.gif
 # All dates must be YYYY-MM-DD format!
-date: 2016-12-06
+date: #2016-12-06
 published: true
 labels:
   - Java

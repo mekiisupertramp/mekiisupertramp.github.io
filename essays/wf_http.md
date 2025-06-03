@@ -4,7 +4,7 @@ type: essay
 title: "WallFrame 2/5 - HTTP"
 image: img/wf_rgb/wf_logo.png
 # All dates must be YYYY-MM-DD format!
-date: 2025-01-29
+date: #2025-01-29
 published: true
 labels:
   - Raspberry Pi  Pico WH

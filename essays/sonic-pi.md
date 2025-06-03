@@ -4,7 +4,7 @@ type: essay
 title: "Sonic Pi makes some noise!"
 image: img/sonic-pi/sonicpi-logo.png
 # All dates must be YYYY-MM-DD format!
-date: 2018-04-15
+date: #2018-04-15
 published: true
 labels:
   - Raspberry Pi

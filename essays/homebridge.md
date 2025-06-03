@@ -4,8 +4,8 @@ type: essay
 title: "Homebridge, connect your Home! [under construction]"
 image: img/loading.gif
 # All dates must be YYYY-MM-DD format!
-date: 2015-09-08
-published: true
+date: #2015-09-08
+published: false
 labels:
   - Home
   - Homebridge
